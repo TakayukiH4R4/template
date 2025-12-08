@@ -7,7 +7,7 @@
 
 <struts>
 	<constant name = "struts.devMode" value = "true" />
-<!-- 対象のpackageを設定 -->
+	<!-- 対象のpackageを設定 -->
 	<package name = "com.diworksdev.template.action" extends = "struts-default">
 		<!--  HomeAction -->
 		<action name = "HomeAction" class = "com.diworksdev.template.action.HomeAction" method = "execute">
