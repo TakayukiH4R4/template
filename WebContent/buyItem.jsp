@@ -69,7 +69,7 @@
 		<div>
 			<s:form action= "BuyItemAction">
 				<table>
-					<tr> <!-- 商品名table --> 
+					<tr> <!-- 商品名 --> 
 						<td>
 							<span>商品名</span>
 						</td>
@@ -77,7 +77,7 @@
 							<s:property value= "session.buyItem_name" />
 						</td>
 					</tr>
-					<tr> <!-- 値段table -->
+					<tr> <!-- 値段 -->
 						<td>
 							<span>値段</span>
 						</td>
@@ -85,7 +85,7 @@
 							<s:property value= "session.buyItem_price" /><span>円</span>
 						</td>
 					</tr>
-					<tr> <!-- 在庫table -->
+					<tr> <!-- 在庫 -->
 						<td>
 							<span>在庫</span>
 						</td>
@@ -99,7 +99,7 @@
 							</select>
 						</td>
 					</tr>
-					<tr> <!-- 支払い方法table -->
+					<tr> <!-- 支払い方法 -->
 						<td>
 							<span>支払い方法</span>
 						</td>
@@ -108,7 +108,7 @@
 							<input type= "radio" name= "pay" value= "2">クレジットカード
 						</td>
 					</tr>
-					<tr> <!-- 購入table -->
+					<tr> <!-- 購入 -->
 						<td>
 							<s:submit value= "購入" />
 						</td>

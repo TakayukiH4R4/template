@@ -28,7 +28,7 @@ public class LoginDTO {
 		this.userName = userName;
 	}
 
-	public boolean getLoginF1g() {
+	public boolean getLoginFlg() {
 		return loginFlg;
 	}
 	public void setLoginFlg(boolean loginFlg) {
