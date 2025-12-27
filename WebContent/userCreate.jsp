@@ -71,7 +71,7 @@
 
 	<div>
 		<s:if test="errorMessage != ''">
-			<s:property value="errorMessage" ecape="false"/>
+			<s:property value="errorMessage" escape="false"/>
 		</s:if>
 		<table>
 			<s:form action="UserCreateConfirmAction">
