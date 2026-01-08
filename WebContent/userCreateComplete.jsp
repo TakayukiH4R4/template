@@ -32,13 +32,13 @@
 /* ======== ID LAYOUT ======== */
 	#top {
 		width: 780px;
-		margin 30px auto;
+		margin: 30px auto;
 		border: 1px solid #333;
 	}
 
 	#header {
 		width: 100%;
-		height: 500px;
+		height: 80px;
 		background-color: black;
 	}
 
