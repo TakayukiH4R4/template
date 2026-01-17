@@ -41,6 +41,12 @@
 			<result name = "success">buyItemConfirm.jsp</result>
 		</action>
 
+<!-- BuyItemConfirmAction -->
+		<action name = "BuyItemConfirmAction" class = "com.diworksdev.template.action.BuyItemConfirmAction" method = "execute">
+			<result name = "success">buyItemComplete.jsp</result>
+		</action>
+
+
 
 	</package>
 </struts>
