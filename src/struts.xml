@@ -45,6 +45,10 @@
 		<action name = "BuyItemConfirmAction" class = "com.diworksdev.template.action.BuyItemConfirmAction" method = "execute">
 			<result name = "success">buyItemComplete.jsp</result>
 		</action>
+<!-- MyPageAction -->
+		<action name = "MyPageAction" class = "com.diworksdev.template.action.MyPageAction" method = "execute">
+			<result name = "success">myPage.jsp</result>
+		</action>
 
 
 
