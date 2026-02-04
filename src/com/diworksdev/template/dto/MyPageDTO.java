@@ -34,4 +34,5 @@ public class MyPageDTO {
 		this.payment = payment;
 	}
 
+
 }

@@ -44,7 +44,7 @@
 	}
 
 	#main {
-		width: 100%
+		width: 100%;
 		height: 500px;
 		text-align: center;
 	}
@@ -74,6 +74,18 @@
 						<td>商品名</td>
 						<td><s:property value="session.buyItem_name"/></td>
 					</tr>
+					<tr>
+						<td>値段</td>
+						<td><s:property value="session.buyItem_price"/><span>円</span></td>
+					</tr>
+					<tr>
+						<td>購入個数</td>
+						<td><s:property value="session.stock"/><span>個</span></td>
+					</tr>
+					<tr>
+						<td>支払い方法</td>
+						<td><s:property value="session.pay"/></td>
+					</tr>
 				</table>
 				<s:form action="MyPageAction">
 					<input type="hidden" name="deleteFlg" value="1">
@@ -95,6 +107,7 @@
 	<div id="footer">
 		<div id="pr"></div>
 	</div>
+
 
 </body>
 </html>
